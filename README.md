@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Population Forecast Calculator is a web application hosted on GitHub Pages that allows users to predict future population figures based on historical data using various forecasting methods.
+The Population Forecast Calculator is a web application hosted on GitHub Pages that allows users to predict future population figures based on historical data using various forecasting methods. The project is initiated as a result of an Urban Planning course I took up. :-)
 
 ## Live Demo
 
