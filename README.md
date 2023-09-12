@@ -6,7 +6,7 @@ The Population Forecast Calculator is a web application hosted on GitHub Pages t
 
 ## Live Demo
 
-You can access the live demo of the Population Forecast Calculator here: [Population Forecast Calculator](https://rujulsrivastava.github.io/population-forecast)
+You can access the live demo of the Population Forecast Calculator here: [Population Forecast Calculator](https://rujulsrivastava.github.io/population_forecast/)
 
 ## Features
 
