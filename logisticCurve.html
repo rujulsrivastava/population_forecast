@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistic Curve Population Calculator</title>
+    
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Logistic Curve Population Calculator</h1>
+        <form>
+            <div class="form-group">
+                <label for="Po">Population at t0 (Po)</label>
+                <input type="number" class="form-control" id="Po" placeholder="Enter Po, for eg: 80000">
+            </div>
+            <div class="form-group">
+                <label for="P1">Population at t1 (P1)</label>
+                <input type="number" class="form-control" id="P1" placeholder="Enter P1, for eg: 250000">
+            </div>
+            <div class="form-group">
+                <label for="P2">Population at t2 (P2)</label>
+                <input type="number" class="form-control" id="P2" placeholder="Enter P2, for eg: 480000">
+            </div>
+            <div class="form-group">
+                <label for="t1">Number of years between t0 and t1 (t1)</label>
+                <input type="number" class="form-control" id="t1" placeholder="Enter t1, for eg: 10">
+            </div>
+            <div class="form-group">
+                <label for="t">Number of years between t0 and required year (t) => t-t0</label>
+                <input type="number" class="form-control" id="t" placeholder="Enter t, for eg: 30">
+            </div>
+            <button type="button" class="btn btn-primary" id="logisticButton">Calculate</button>
+        </form>
+        <div class="mt-3">
+            <div class="alert alert-info" role="alert" id="logisticCurveResult">
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="logisticCurve.js"></script>
+</body>
+</html>
+
