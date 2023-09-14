@@ -23,7 +23,7 @@ Follow these steps to set up and run the Population Forecast Calculator locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/rujulsrivastava/population-forecast.git
+   git clone https://github.com/rujulsrivastava/population_forecast.git
    ```
 2. Open the project folder in your code editor.
 3. Set up a web server or use a development server to host the project files.
